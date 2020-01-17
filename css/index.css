@@ -235,3 +235,9 @@ footer nav a {
 .Product-Imgs{
     width: 355px;
 }
+
+#Products-Body{
+    border: tomato solid 30px;
+    padding-bottom: 1600px;
+    margin: 20px;
+}
