@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html, body {
@@ -143,4 +144,100 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.Header-Home{
+    display: flex;
+    margin: 4% 0 5% 0;
+    
+}
+
+.Img-L{
+    margin-right: 4%;
+}
+
+.Nav-Home{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: flex-end;
+    
+}
+
+.Nav-Home a{
+    text-decoration: none;
+    color: black;
+}
+
+.Img-Road{
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+#box1{
+    color: teal;
+}
+#box2{
+    color: gold;
+}
+#box3{
+    color: cadetblue;
+}
+#box4{
+    color: coral;
+}
+#box5{
+    color: crimson;
+}
+#box6{
+    color: forestgreen;
+}
+#box7{
+    color: darkorchid;
+}
+#box8{
+    color: hotpink;
+}
+#box9{
+    color: indigo;
+}
+#box10{
+    color: dodgerblue;
+}
+
+.AboutSec{
+    border-bottom: dashed black 1px;
+    padding: 1% 1% 3% 1%;
+    
+}
+
+.AboutParagraphs{
+    display: flex;
+    border-bottom: dashed black 1px;
+    padding: 3% 0% 3% 0%;
+}
+
+.BottomParagraph{
+    padding: 5% 2% 5% 2%;
+}
+
+.AboutParagraphs a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    border: solid black 1px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 15px; 
+    margin: 4% 0 0% 0;
+    
+}
+
+.Product-Imgs{
+    width: 355px;
+}
+
+#Products-Body{
+    border: tomato solid 30px;
+    padding-bottom: 1600px;
+    margin: 20px;
 }
